@@ -1,16 +1,84 @@
-# React + Vite
+# 🏨 Hotel Management System (MERN Stack)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Hotel Management System built using the MERN stack to simplify hotel room booking and administration.
 
-Currently, two official plugins are available:
+This platform allows users to browse hotel rooms and enables administrators to manage room listings, pricing, and room details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## User Features
 
-## Expanding the ESLint configuration
+* User Registration & Login
+* Secure Authentication
+* Browse Available Rooms
+* View Room Details
+* Responsive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Admin Features
+
+* Add New Rooms
+* Upload Room Images
+* Update Room Information
+* Delete Rooms
+* Manage Room Listings
+
+---
+
+# Tech Stack
+
+Frontend:
+
+* React.js
+* Axios
+* React Router
+
+Backend:
+
+* Node.js
+* Express.js
+
+Database:
+
+* MongoDB
+* Mongoose
+
+Authentication:
+
+* JWT
+* bcryptjs
+
+Image Upload:
+
+* Multer
+
+---
+
+Run backend:
+
+npm run dev
+
+Run frontend:
+
+npm run dev
+
+---
+
+# Environment Variables
+
+Backend `.env`
+
+PORT=
+MONGO_URI=
+JWT_SECRET=
+
+---
+
+# Future Improvements
+
+* Online Booking
+* Payment Integration
+* Booking History
+* Analytics Dashboard
+* Hotel Reviews
